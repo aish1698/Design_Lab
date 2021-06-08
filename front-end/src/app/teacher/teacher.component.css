@@ -1,0 +1,39 @@
+h2{
+  text-align:center;
+  color: #1F51FF;
+  margin-top: 60px;
+  margin-bottom: 90px;
+  font-size: 60px;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+.content{
+  padding-top:20px;
+    padding-bottom: 40px;
+margin-top:40px;
+  margin-bottom: 40px;
+  background-image: url("src\assets\images\stcet_teachers.jpg");
+  background-repeat: no-repeat;
+
+  background-size:100%;
+
+
+  text-align: center;
+}
+
+.btn{
+margin:auto;
+text-align: center;
+height: 90px;
+width:500px;
+display:block;
+align-items: center;
+border-radius: 35px;
+font-size: 20px;
+font-weight: bolder;
+
+}
+#container{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
