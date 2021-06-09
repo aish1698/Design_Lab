@@ -1,5 +1,11 @@
 /* Bordered form */
-
+.image-container{
+  background-image: url("C:\Users\Mayukh\Desktop\Design_Lab\front-end\src\assets\images\instructor.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(7, 48, 7);
+  
+}
   /* Full-width inputs */
   input[type=text], input[type=password] {
     width: 100%;
@@ -8,6 +14,7 @@
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
+    
   }
 
   /* Set a style for all buttons */
@@ -43,6 +50,7 @@
   .imgcontainer {
     text-align: center;
     margin: 24px 0 12px 0;
+    background-color: darkgreen;
   }
 
   /* Avatar image */

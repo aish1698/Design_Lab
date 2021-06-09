@@ -6,16 +6,20 @@
   .home {
 
 
-      background: url('src\assets\images\graduate2.jpg');
+      background: url('C:\Users\Mayukh\Desktop\Design_Lab\front-end\src\assets\images\homw.jpg');
 
-
+      background-position:center;
 
       background-size: cover;
-      color: blue;
+      color: rgb(245, 232, 209);
+      font-size: 50px;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: black ;
       display: flex;
       flex: 1;
       text-align: center;
       margin-bottom: 40px;
+      image-resolution: 1;
     }
 
     .home-content {

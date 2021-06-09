@@ -7,6 +7,10 @@ h2{
   font-family: sans-serif;
   font-weight: bolder;
   color:#1F51FF;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black ;
+  
+
 }
 .content{
   padding-top:20px;
@@ -15,7 +19,7 @@ margin-top:40px;
   margin-bottom: 40px;
 text-align:center;
 
-  background-image: url("src\assets\images\stcet_students.jpg");
+  background-image: url("src\assets\images\student.jpg");
   background-repeat: no-repeat;
 
   background-size:100%;
