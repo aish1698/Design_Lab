@@ -1,5 +1,5 @@
 # Design_Lab
-STCET classroom (E-classroom) application has been developed using Mongodb,Express,Angular and NodeJs.
+Stcet CourseBook (Online Course Portal For A Campus) application has been developed using Mongodb,Express,Angular and NodeJs.
 # How to run the app?
 * Run npm install to install required dependencies.
 - Run ng serve to run the angular app
