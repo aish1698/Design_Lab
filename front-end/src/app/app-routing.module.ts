@@ -30,6 +30,9 @@ import { AnswerdownComponent } from './answerdown/answerdown.component';
 import { VideoCallComponent } from './video-call/video-call.component';
 
 import { AnswerdownloadComponent } from './answerdownload/answerdownload.component';
+import { DownloadresultComponent } from './downloadresult/downloadresult.component';
+import { UploadresultComponent } from './uploadresult/uploadresult.component';
+import { ResultdownComponent } from './resultdown/resultdown.component';
 const routes: Routes = [
   {
     path: '', redirectTo: '/home', pathMatch: 'full'
@@ -91,6 +94,22 @@ const routes: Routes = [
     path:'answer-upload',component:AnswerUploadComponent,
     canActivate:[AuthGuard]
 
+  },
+  {
+    path:'downloadresult',
+    component:DownloadresultComponent,
+    canActivate:[AuthGuard]
+  },
+  {
+    path:'uploadresult',
+    component:UploadresultComponent,
+    canActivate:[AuthTeacherGuard]
+
+  },
+  {
+    path:'resultdown/:sem/:subject/:dept/:class_roll',
+    component:ResultdownComponent,
+    canActivate:[AuthGuard]
   },
   {
     path: 'student',
