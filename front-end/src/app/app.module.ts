@@ -37,6 +37,10 @@ import { AnswerdownComponent } from './answerdown/answerdown.component';
 import { AnswerdownloadComponent } from './answerdownload/answerdownload.component';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import { AuthTeacherGuard } from './auth-teacher.guard';
+import { DownloadresultComponent } from './downloadresult/downloadresult.component';
+import { UploadresultComponent } from './uploadresult/uploadresult.component';
+import { ResultdownComponent } from './resultdown/resultdown.component';
+
 import {AuthHomeGuard} from './auth-home.guard';
 import { LoginteacherService } from './user/loginteacher/loginteacher.service';
 @NgModule({
@@ -61,6 +65,9 @@ import { LoginteacherService } from './user/loginteacher/loginteacher.service';
     AssignmentdownComponent,
     AssignmentdownloadComponent,
     AnswerdownComponent,
+    DownloadresultComponent,
+    UploadresultComponent,
+    ResultdownComponent,
     AnswerdownloadComponent,
     AssignmentUploadComponent,
     VideoCallComponent,
@@ -75,6 +82,7 @@ import { LoginteacherService } from './user/loginteacher/loginteacher.service';
    ReactiveFormsModule,
    MatIconModule,
    MatProgressBarModule
+  
   ],
 providers: [AuthGuard,AuthTeacherGuard,AuthHomeGuard,LoginteacherService,LoginService],
 bootstrap: [AppComponent]

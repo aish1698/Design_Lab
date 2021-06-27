@@ -1,11 +1,11 @@
 /* Bordered form */
 .image-container{
-  background-image: url("C:\Users\Mayukh\Desktop\Design_Lab\front-end\src\assets\images\studentlogin.jpg");
+  background-image: url("C:\Users\91801\OneDrive\Documents\GitHub\Design_Lab\front-end\src\assets\images\studentlogin.jpg");
   background-repeat: no-repeat;
   
 }
 .outer-container{
-  background-color: rgba(180, 20, 20, 0.76)165, 42, 42, 0.719);
+  background-color: rgba(180, 20, 20, 0.76)(165, 42, 42, 0.719);
 
 }
   /* Full-width inputs */
